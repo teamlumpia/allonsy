@@ -1,0 +1,62 @@
+
+.headings {
+  font-family: 'Fjalla One', sans-serif;
+  padding-bottom: 20px;
+  color: #72005d;
+}
+
+.panel2 {
+    margin-top: 4em;
+    background-color: white;
+    width: 100%; 
+    height:  100%;
+    display: block;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.content-img img {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 5em;
+  background-color: white;
+  width: 250px;
+  height: 350px;
+}
+
+.p-text {
+  padding: 30px 0px 40px 50px;
+}
+
+.process_circle {
+  height: 150px;
+  width: 150px;
+  background-color: #72005d;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.process_text {
+  font-size: 60px;
+  padding-top: 30px;
+  padding-left: 65px;
+  padding-right: 75px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.fa-long-arrow-right {
+  bottom: 35%;
+  margin-left: 200px;
+  position: relative;
+  left: 10%;
+  right: 50%;
+}
+
+.next_section_2 {
+  bottom: 10px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.process-text {
+  width: 17em;
+}
