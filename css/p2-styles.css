@@ -4,6 +4,8 @@
     text-align: center;  
 }
 
+/* ------------- Services -------------*/
+
 .headings {
   font-family: 'Fjalla One', sans-serif;
   padding-bottom: 20px;
@@ -56,9 +58,12 @@
   width: 17em;
 }
 
+/* ------------- Videos -------------*/
+
 .videos {
   max-width: fit-content;
   margin: auto;
+  margin-top: 4em;
 }
 
 .videos h4 {
@@ -67,6 +72,58 @@
   font-weight: bold;
 }
 
-.vid2{
-  margin-left: 100px;
+video {
+  height: 25rem;
+  margin-top: 4rem;
+}
+.video1 {
+  margin-right: 100px;
+}
+
+video::-webkit-media-controls-volume-slider {
+  background-color: rgb(255, 9, 103);
+  padding: 0;
+  margin-top: 21px;
+}
+
+@media screen and (max-width: 700px) {
+    .videos {
+        margin-left: 15%;
+    }
+}
+
+/* ------------- Process-------------*/
+.process_circle {
+  height: 150px;
+  width: 150px;
+  background-color: #72005d;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.process_text {
+  font-size: 60px;
+  padding-top: 30px;
+  padding-left: 65px;
+  padding-right: 75px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.fa-long-arrow-right {
+  bottom: 35%;
+  margin-left: 200px;
+  position: relative;
+  left: 10%;
+  right: 50%;
+}
+
+.next_section_2 {
+  bottom: 10px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.process-text {
+  width: 17em;
 }
