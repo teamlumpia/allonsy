@@ -39,3 +39,13 @@
   color: #72005d;
   font-weight: bold;
 }
+
+/* ------------- Mobile -------------*/
+
+@media screen and (max-width: 700px) {
+  .about-me-img {
+    width: 250px;
+    margin-left: 25%;
+    margin-top: 4rem;
+  }
+}

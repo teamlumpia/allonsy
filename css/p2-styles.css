@@ -74,12 +74,6 @@ video::-webkit-media-controls-volume-slider {
   margin-top: 21px;
 }
 
-@media screen and (max-width: 700px) {
-    .videos {
-        margin-left: 15%;
-    }
-}
-
 /* ------------- Process-------------*/
 .process_circle {
   height: 100px;
@@ -161,3 +155,17 @@ video::-webkit-media-controls-volume-slider {
   text-decoration: none;
   font-size: 18px;
 }
+
+/* ------------- Mobile -------------*/
+
+@media screen and (max-width: 700px) {
+    .videos {
+        margin-left: 5%;
+    }
+    .process-text {
+        margin-top: 10px;
+    }
+    .process_circle, #process-arrow {
+        display: none;
+    }
+} 

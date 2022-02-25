@@ -8,6 +8,7 @@ ol {
   list-style: none;
   counter-reset: item;
   padding-top: 20px;
+  margin-left: -25px;
 }
 .question-item {
   counter-increment: item;
@@ -27,8 +28,16 @@ ol {
   display: inline-block;
 }
 
+#form-questions {
+  margin-bottom: 50px;
+}
 #form-submit-section {
     margin-top: 2rem;
+}
+
+.disclosure {
+  align-content: flex-end; 
+  padding-top: 5%;
 }
 
 .form_button {
