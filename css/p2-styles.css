@@ -41,20 +41,6 @@
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-/* .fa-long-arrow-right {
-  bottom: 35%;
-  margin-left: 200px;
-  position: relative;
-  left: 10%;
-  right: 50%;
-} */
-
-.next_section_2 {
-  bottom: 10px;
-  margin-left: 50%;
-  margin-right: 50%;
-}
-
 .process-text {
   margin-top: -15px;
   width: 17em;
@@ -120,7 +106,7 @@ video::-webkit-media-controls-volume-slider {
   right: 50%;
 }
 
-.next_section_2 {
+.next-section {
   bottom: 10px;
   margin-left: 50%;
   margin-right: 50%;
