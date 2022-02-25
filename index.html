@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/p1-styles.css">
     <link rel="stylesheet" type="text/css" href="css/p2-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/p3-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/p4-styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<!-- NARROW GOOGLE FONT -->
+    <!-- FONT AWESOME -->	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- NARROW GOOGLE FONT -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,7 +32,7 @@
 
     <!------- Side Nav -------->
 <div class="sidebar">
-		<a id="sidebar-logo" href="#section1">
+		<a id="sidebar-logo" href="#panel1">
 			<div class="nav_circle">
 				<img class="nav_logo" src="assets/logo.png" />
 			</div>
@@ -39,10 +44,11 @@
 			</div>
 		</a>
 
-    <a href="#home">SERVICES</a>
-    <a href="#news">ABOUT</a>
-    <a href="#contact">GETTING STARTED</a>
-    <a href="#about">TESTIMONIALS</a>
+    <a href="#panel2">SERVICES</a>
+    <a href="#panel3">GETTING STARTED</a>
+    <a href="#panel4">ABOUT</a>
+    <a href="#panel5">TESTIMONIALS</a>
+
     <div class="aaron_nav_contact">
         <p>Aaron Bacot<br>
             Marketing Manager<br>
@@ -51,111 +57,321 @@
     </div>
 </div>
 
-    <!------- Main---------->
-    <!------- Panel 1 ---------->
-    <main>
-    <div class="container-fluid" id="p1-container">
-        <div class="p1-text">
-            <strong class="welcome">Welcome to Allons-Y! </strong> <br />
-            Allons-Y means 'Let’s Go!' We are a small business consulting firm that will assist your company in achieving the goal of growing in size, production and revenue. How will we get there? The answer is- by working together. Allons-Y is all about small businesses helping other small businesses. If you're interested in growing your company and the concept of small business community, take a look around and let's discuss how we can be of service.  
-            <h3 class="item">
-                <span class="add-label"><a href="#section2">!Allons-Y&#161;</a></span>
-                <span class="align">Let's Go!</span>
-            </h3>
+<!------- Panel 1: Intro  ---------->
+    <main id="panel1">
+        <div class="container-fluid" id="p1-container">
+            <div class="p1-text">
+                <strong class="welcome">Welcome to Allons-Y! </strong> <br />
+                Allons-Y means 'Let’s Go!' We are a small business consulting firm that will assist your company in achieving the goal of growing in size, production and revenue. How will we get there? The answer is- by working together. Allons-Y is all about small businesses helping other small businesses. If you're interested in growing your company and the concept of small business community, take a look around and let's discuss how we can be of service.  
+                <h3 class="item">
+                    <span class="add-label"><a href="#panel2">!Allons-Y&#161;</a></span>
+                    <span class="align">Let's Go!</span>
+                </h3>
+            </div>
         </div>
-    </div>
 
-    <!------- Panel 2 ---------->
-		<div class="panel2" id="section2">
-			<!-- <h1 class="test">PANEL2</h1> -->
+<!------- Panel 2: Services  ---------->
+        <div class="container" id="panel2">
+            <div class="row">
 
-			<!--- SOCIAL | CONTENT | ADVERTISING: PANEL2 -->
-			<div class="container">
-				<div class="row">
-					<div class="col-sm">
-						<h3 class="headings" style="text-align: center;">SOCIAL MEDIA</h3>
-						<div class="content-img">
-							<img src="assets/socialmedia.png">
-						</div>
-						<p class="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta malesuada
-							massa, ac
-							feugiat elit convallis nec. In vitae purus eu nulla venenatis laoreet. Donec a pulvinar
-							quam.</p>
-					</div>
-					<div class="col-sm">
-						<h3 class="headings" style="text-align: center;">CONTENT CREATION</h3>
-						<div class="content-img">
-							<img src="assets/contentcreation.png">
-						</div>
-						<p class="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta malesuada
-							massa, ac
-							feugiat elit convallis nec. In vitae purus eu nulla venenatis laoreet. Donec a pulvinar
-							quam.</p>
-					</div>
-					<div class="col-sm">
-						<h3 class="headings" style="text-align: center;">ADVERTISING</h3>
-						<div class="content-img">
-							<img src="assets/marketing.png">
-						</div>
-						<p class="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta malesuada
-							massa, ac
-							feugiat elit convallis nec. In vitae purus eu nulla venenatis laoreet. Donec a pulvinar
-							quam.</p>
-					</div>
-				</div>
-			</div>
+                <div class="col-sm">
+                    <h3 class="headings">SOCIAL MEDIA</h3>
+                    <img class="service-img" src="assets/socialmedia.png">
+                    <p class="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta malesuada
+                        massa, ac
+                        feugiat elit convallis nec. In vitae purus eu nulla venenatis laoreet. Donec a pulvinar
+                        quam.</p>
+                </div>
 
+                <div class="col-sm">
+                    <h3 class="headings">CONTENT CREATION</h3>
+                    <img class="service-img" src="assets/contentcreation.png">
+                    <p class="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta malesuada
+                        massa, ac
+                        feugiat elit convallis nec. In vitae purus eu nulla venenatis laoreet. Donec a pulvinar
+                        quam.</p>
+                </div>
 
-			<div class="videos" style= "margin-top: 4em;">
-				<h4>"Lorem ipsum dolor sit amet feugiat elit convallis nec" </h4>
-				<video class="vid1" width="320" height="520" controls>
-					<source src="assets/video1.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video>
+                <div class="col-sm">
+                    <h3 class="headings">ADVERTISING</h3>
+                    <img class="service-img" src="assets/marketing.png">
+                    <p class="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta malesuada
+                        massa, ac
+                        feugiat elit convallis nec. In vitae purus eu nulla venenatis laoreet. Donec a pulvinar
+                        quam.</p>
+                </div>
 
-				<video class="vid2" width="320" height="520" controls>
-					<source src="assets/video2.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video>
-			</div>
+            </div>
+        </div>
 
-			<!--- THE PROCESS: PANEL2 -->
+<!--- Panel 2: Videos -->
+		<div class="videos">
+			<h4>"Lorem ipsum dolor sit amet feugiat elit convallis nec" </h4>
+
+            <video controls class="video1">
+            <source src="assets/video1.mp4" type="video/mp4"/>
+            </video>
+
+            <video controls>
+            <source src="assets/video2.mp4" type="video/mp4" />
+            </video>
+
+        </div>
+
+<!--- Panel 2: Process -->
 			<div class="container">
 				<div class="row justify-content-md-center" style="padding: 30px; margin-top: 6em;">
 					<h3 class="headings">THE PROCESS</h3>
 					<div class="col-sm process">
 						<div class="process_circle">
 							<div class="process_text">1</div>
-						</div> <i class="fa fa-long-arrow-right" style="font-size:48px;color:#72005d;"></i>
+						</div>
+                         <i class="fa fa-long-arrow-right" style="margin-top:30px;font-size:48px;color:#72005d;"></i>
 						<p class="process-text"><b>Contact:</b> Fill out the form below and let me get to know you and your goals.</p>
 					</div>
 					<div class="col-sm process">
 						<div class="process_circle">
 							<div class="process_text">2</div>
-						</div><i class="fa fa-long-arrow-right" style="font-size:48px;color:#72005d;"></i>
+						</div>
+                        <i class="fa fa-long-arrow-right" style="margin-top:30px;font-size:48px;color:#72005d;"></i>
 						<p class="process-text"><b>Consult:</b> We'll set up an initial consultation free of charge and discuss your goals further.</p>
 					</div>
 					<div class="col-sm process">
 						<div class="process_circle">
 							<div class="process_text">3</div>
-						</div><i class="fa fa-long-arrow-right" style="font-size:48px;color:#72005d;"></i>
+						</div>
+                        <i class="fa fa-long-arrow-right" style="margin-top:30px;font-size:48px;color:#72005d;"></i>
 						<p class="process-text"><b>Plan:</b> After getting the details, we'll come up with a plan and go over it together so you'll know what to expect.</p>
 					</div>
 					<div class="col-sm process">
 						<div class="process_circle">
 							<div class="process_text">4</div>
-						</div><i class="fa fa-long-arrow-right" style="font-size:48px;color:#72005d;"></i>
+						</div>
+                        <i class="fa fa-long-arrow-right" style="margin-top:30px;font-size:48px;color:#ffffff;"></i>
 						<p class="process-text"><b>Launch:</b> Your content goes live, and your hard work pays off!</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="next_section_2">
-				<a href="#section3"><i class="fa fa-angle-down" aria-hidden="true"
-						style="font-size:48px; color: #20002f"></i></a>
+<!--- Panel 2: Tiers -->
+        <div class="container">
+        <div class="row">
+
+            <div class="col-sm">
+                <ul class="price">
+                    <li class="header" style="background-color:#4f3d58;">Start</li>
+                    <li class="grey">$ 500</li>
+                    <li>Our Start package is necessary if your business has little to no online presence but you're ready to change that and get your business seen across social media.</li>
+                    <li>Strategy Interview
+                        <p class="tier-subtitles">(to align with business goals)</p>
+                    </li>
+                    <li>Initial Setup of Accounts
+                        <p class="tier-subtitles">(select from Facebook, Twitter, and Instagram)</p>
+                    </li>
+                    <li>Starting blog post
+                        <p class="tier-subtitles">(select from Facebook, Twitter, and Instagram)</p>
+                    </li>
+                    <li>Monthly Strategy Call</li>
+                    <li>Monthly Reporting</li>
+                    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm">
+                <ul class="price">
+                    <li class="header" style="background-color:#3c2049;">Build</li>
+                    <li class="grey">$ 150 / mo</li>
+                    <li>Our Build package is ideal for start-ups and for businesses that need some help getting started using social media for their business to build awareness and trust.</li>
+                    <li>Strategy Interview
+                        <p class="tier-subtitles">(to align with business goals)</p>
+                    </li>
+                    <li>20 posts per month
+                        <p class="tier-subtitles">(select from Facebook, Twitter, and Instagram)</p>
+                    </li>
+                    <li>2 blog posts per month
+                        <p class="tier-subtitles">(posted on Facebook, Twitter, and Instagram)</p>
+                    </li>
+                    <li>Monthly Strategy Call</li>
+                    <li>Monthly Reporting</li>
+                    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm">
+                <ul class="price">
+                    <li class="header" style="background-color:#260735;">Grow</li>
+                    <li class="grey">$ 275 / mo</li>
+                    <li>Our Grow package is perfect for small businesses that want to outsource most if not all of thier social media marketing and are ready to take their business to the next level.</li>
+                    <li>Strategy Interview
+                        <p class="tier-subtitles">(to align with overall marketing strategy)</p>
+                    </li>
+                    <li>50 posts per month
+                        <p class="tier-subtitles">(select from Facebook, Twitter, and Instagram)</p>
+                    </li>
+                    <li>4 blog posts per month
+                        <p class="tier-subtitles">(posted on Facebook, Twitter, and Instagram)</p>
+                    </li>
+                    <li>Monthly Strategy Call</li>
+                    <li>Monthly Reporting</li>
+                    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                </ul>
+            </div>
+
+        </div>
+                <div class="next-section" style="margin-top:50px;">
+				    <a href="#panel3"><i class="fa fa-angle-down" aria-hidden="true" style="font-size:48px; color: #20002f"></i></a>
+			    </div>
+        </div>
+
+<!--- Panel 3: Form -->
+		<div class="panel3" id="panel3">
+			<div class="container">
+				<h3 class="headings">LET'S GET YOU STARTED</h3>
+				<p>
+					Below is a questionnaire that I developed in order to get you and I on the same page of where you stand in achieving your goals with your business. Take your time, answer each question honestly and truthfully and send it back to me. We will then sit down in person or over the phone and develop a plan that will grow your product, brand, business and service into the final creation that you desire. Join Aaron Bacot and Allons-Y! as we guide your business into the future you dream of.
+				</p>
+				<h3 class="headings" style="padding-top: 30px;">SMALL BUSINESS CONSULTING CLIENT QUESTIONNAIRE</h3>
 			</div>
+
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-sm-8" style="padding-bottom: 100px;">
+						<form>
+							<div class="form-group">
+								<ol>
+									<li class="question-item">
+										<label for="question1">What is your company's current status? Do you have a product?</label>
+										<textarea class="form-control" id="question1" rows="2"></textarea>
+									</li>
+
+									<li class="question-item">
+										<label for="question2">What are your company’s key products, who are your target
+											customers, who are your key competitors?</label>
+										<textarea class="form-control" id="question2" rows="2"></textarea>
+									</li>
+
+									<li class="question-item">
+										<label for="question3">What value does your company provide that makes it stand
+											out from others like it in the same industry?</label>
+										<textarea class="form-control" id="question3" rows="2"></textarea>
+									</li>
+									<li class="question-item">
+										<label for="question4">What are some of the major challenges your company is
+											facing? In what way do you see Allons-Y helping to improve current
+											outcomes?</label>
+										<textarea class="form-control" id="question4" rows="2"></textarea>
+									</li>
+									<li class="question-item">
+										<label for="question5">How often do these challenges affect your company’s
+											production?</label>
+										<textarea class="form-control" id="question5" rows="2"></textarea>
+									</li>
+									<li class="question-item">
+										<label for="question6">How long would you say that your total process takes you?
+											Give answer in terms of days and weeks on
+											average.</label>
+										<textarea class="form-control" id="question6" rows="2"></textarea>
+									</li>
+									<li class="question-item">
+										<label for="question7">What are some changes you would like to see?</label>
+										<textarea class="form-control" id="question7" rows="2"></textarea>
+									</li>
+									<li class="question-item">
+										<label for="question8">Where do you see your company in the future? Are you happy with your current audience or are you looking to expand?</label>
+										<textarea class="form-control" id="question8" rows="2"></textarea>
+									</li>
+								</ol>
+							</div>
+						</form>
+					</div>
+
+					<div class="col-sm-4" id="form-submit-section">
+						<form>
+							<div class="form-group">
+								<label for="client_name">Name: </label>
+								<input type="email" class="form-control" id="client_name" placeholder="Enter your name">
+							</div>
+
+							<div class="form-group">
+								<label for="client_email">Email:</label>
+								<input type="email" class="form-control" id="client_email"
+									placeholder="Enter your email">
+							</div>
+
+							<div class="form-group">
+								<label for="client_message">Message:</label>
+								<textarea class="form-control" id="client_message" rows="4"></textarea>
+							</div>
+						</form>
+						<button type="submit" class="form_button"><span class="btn-text">LET'S GO</span></button>
+
+						<div class="disclosure" style="align-content: flex-end; padding-top: 5%;">
+							<p>Disclosure:</p>
+
+							<p>All information discussed will be held in strict confidence between Allons-Y LLC,
+								its proprietor</p>
+
+							<p>Aaron J. Bacot and the client only. No intellectual property will be shared with
+								third parties, however there will be outside consulting agencies assisting with
+								this process.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+            			<div class="next-section">
+				<a href="#panel4"><i class="fa fa-angle-down" aria-hidden="true"
+						style="font-size:48px; color: #20002f"></i></a>
+                </div>
 		</div>
 
+<!--- Panel 4: About Me -->
+
+        <div class="container" id="panel4">
+        <div class="row">
+
+            <div class="col-sm-8" id="about-me-bio">
+                <h3 class="headings">ABOUT ME</h3>
+                <p>Aaron Bacot applies expert knowledge, industry experience, and relentless energy to solving your company's issues. A graduate of Strayer University with an MBA in Business Analytics and Social Media Marketing, Mr. Bacot began his career in the United States Navy as an Aviation Electronics Technician. After 20 years of service he retired and went to work in the private sector as he worked towards earning business degrees along the way in Business Administration, and Business Management with a concentration in Entrepreneurship. After successfully managing floor operations at IFS Industries he became an Accounts Manager for Star Energy and assisted the company in achieving $8 million dollars in annual revenue. Aaron led successful business trips that resulted in the acquisition of 210 customers, and increased regional revenue by five percent in the D.C and Maryland Markets. His actions directly contributed to the promotion of 23 employees to positions within the company while keeping with the highest standards of customer satisfaction. </p>
+                <p>Today, Mr. Bacot specializes in working with small businesses looking to grow their customer base and enhance their social media engagement and reaching a diverse audience. </p>
+                <p>With more than six years of experience and the successful completion of 13 projects designed to promote individuals and small businesses, Aaron Bacot has the ability to work effectively with your staff, listen to their ideas and help implement the changes necessary for successful completion of the project.</p>
+                <p>Let Aaron Bacot be your consulting partner, as he has done for companies including Lulu and JuJu Infant Wear, and Pin Republic. His expertise and experience can be an incredible asset to your company and its goals. Contact him at (INSERT COMPANY EMAIL) and let's talk about what you need to make your company grow.	</p>
+            </div>
+
+            <div class="col-sm-4">
+           		<img class="about-me-img" src="assets/img_arron.png">
+            </div>
+
+        </div>
+        </div>
+
+<!--- Panel 5: Testimonials -->
+		<div class="panel5" id="panel5">
+			<div class="container">
+				<h3 class="headings">TESTIMONIALS</h3>
+				<p> 
+					"Sometimes there comes a point when you are presented an opportunity to improve your business, and you didn't know you even needed it. After casually reaching out to Allons-Y! (Consulting) after seeing another project they worked on, they provided a detailed examination of what they felt would best benefit my small business. They reached back out to me quickly to chat about what options I should consider for a quick online/ social media marketing spot to boost the visuals of the business page. They examined the current trends and what would align with my product and services. The process was basically seamless, as they list the items they needed to begin crafting a media post to improve the visibility of my products. Within a couple of hours of sending the files to their creative department, they reached out to me with the full plan and what was to be produced. Needless to say, the turnaround was swift, of great quality, and comes highly recommended to those looking to jump into updating their social media presence. It's rare that you go through a process and don't run into hurdles along the way, but with open lines of communication and a listening person on the other end, their services were a gem of a find. Contacting them was time and money well spent. Thanks again for your help guys."
+					<span class="testimonial-author">- Roger Brock, Pin Republic</span>
+				</p>
+
+				<p>
+					"As first-time owner and operators of a business, the simplest tasks from
+					purchasing to accounting can be very difficult. We decided to use Allons-y for our
+					marketing needs. Working with Aaron has been a breeze. He is helping us with
+					our social media presence and our direct sales techniques. He is always quick to
+					respond and has great ideas about getting our name and business out in the
+					community. Since working with Aaron and Allons-y we have been featured at our
+					local Public Market and will hopefully be featured at some of our many local
+					festivals (COVID-19 dependent)."
+					<span class="testimonial-author">- Nicole and Ceola, Owner and Operators of Lulu & Juju Childrenswear</span>
+				</p>
+			</div>
+
+            <div class="next-section">
+				<a href="#panel1"><i class="fa fa-angle-up" aria-hidden="true" style="font-size:48px; color: #20002f"></i></a>
+			</div>
+
+		</div>
 
     </main>
 

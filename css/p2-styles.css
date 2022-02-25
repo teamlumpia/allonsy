@@ -1,3 +1,10 @@
+#panel2 {
+    margin-top: 4em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;  
+}
+
+/* ------------- Services -------------*/
 
 .headings {
   font-family: 'Fjalla One', sans-serif;
@@ -5,25 +12,15 @@
   color: #72005d;
 }
 
-.panel2 {
-    margin-top: 4em;
-    background-color: white;
-    width: 100%; 
-    height:  100%;
-    display: block;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.content-img img {
+.service-img {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-left: 5em;
   background-color: white;
   width: 250px;
   height: 350px;
 }
 
 .p-text {
-  padding: 30px 0px 40px 50px;
+  padding-top: 30px;
 }
 
 .process_circle {
@@ -32,6 +29,7 @@
   background-color: #72005d;
   border-radius: 50%;
   margin-left: 50px;
+  margin-top: 50px;
 }
 
 .process_text {
@@ -39,6 +37,63 @@
   padding-top: 30px;
   padding-left: 65px;
   padding-right: 75px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.process-text {
+  margin-top: -15px;
+  width: 17em;
+}
+
+/* ------------- Videos -------------*/
+
+.videos {
+  max-width: fit-content;
+  margin: auto;
+  margin-top: 4em;
+}
+
+.videos h4 {
+  max-width: fit-content;
+  margin: auto;
+  font-weight: bold;
+}
+
+video {
+  height: 25rem;
+  margin-top: 4rem;
+}
+.video1 {
+  margin-right: 100px;
+}
+
+video::-webkit-media-controls-volume-slider {
+  background-color: rgb(255, 9, 103);
+  padding: 0;
+  margin-top: 21px;
+}
+
+@media screen and (max-width: 700px) {
+    .videos {
+        margin-left: 15%;
+    }
+}
+
+/* ------------- Process-------------*/
+.process_circle {
+  height: 100px;
+  width: 100px;
+  background-color: #72005d;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.process_text {
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: 43px;
+  padding-right: 55px;
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -51,7 +106,7 @@
   right: 50%;
 }
 
-.next_section_2 {
+.next-section {
   bottom: 10px;
   margin-left: 50%;
   margin-right: 50%;
@@ -59,4 +114,50 @@
 
 .process-text {
   width: 17em;
+}
+
+/* ------------- Tiers -------------*/
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin-top: 50px;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.tier-subtitles {
+  text-align: center;
+  font-size: 13px;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #100118;;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
 }

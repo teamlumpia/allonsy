@@ -1,0 +1,53 @@
+/* ------------- Form -------------*/
+.panel3 {
+    font-family: 'Mulish', sans-serif;
+    margin-top: 12rem;
+}
+
+ol {
+  list-style: none;
+  counter-reset: item;
+  padding-top: 20px;
+}
+.question-item {
+  counter-increment: item;
+  margin-bottom: 5px;
+  font-family:  'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.question-item:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: #72005d;
+  border-radius: 50%;
+  color: white;
+  width: 1.4em;
+  text-align: center;
+  display: inline-block;
+}
+
+#form-submit-section {
+    margin-top: 2rem;
+}
+
+.form_button {
+  letter-spacing: 1px; 
+  margin-top: 10%; 
+  margin-left: 40%; 
+  margin-right: 40%; 
+  background-color:  #72005d;
+  color: white;
+  border-radius: 50px;
+  border-color: #72005d;
+  padding: 5px 30px 5px 30px;
+}
+
+.btn-text {
+  display: block;
+  white-space: nowrap;
+}
+
+.col-sm-4 {
+font-size: 13px;
+}

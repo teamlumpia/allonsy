@@ -1,0 +1,41 @@
+/* ------------- About Me -------------*/
+.panel4 {
+    /* padding-bottom: 20%; */
+    text-align: justify;
+}
+
+.about-me-img {
+  width: 450px;
+  margin-left: 50px;
+  padding-top: 55px;
+  margin-top: 8rem;
+}
+
+#about-me-container {
+  padding-top: 12%;
+}
+
+/* @media screen and (max-width: 1200px) {
+.about-me-img {
+        display: none;
+    }
+} */
+
+#about-me-bio {
+    margin-top: 8rem;
+    text-align: justify;
+}
+
+
+/* ------------- Testimonials -------------*/
+
+.panel5 {
+    margin: 8rem 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.testimonial-author {
+  font-style: italic;
+  color: #72005d;
+  font-weight: bold;
+}
