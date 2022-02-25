@@ -30,9 +30,11 @@ ol {
 
 #form-questions {
   margin-bottom: 50px;
+  /* border: 1px solid red; */
 }
 #form-submit-section {
-    margin-top: 2rem;
+  margin-top: 2rem;
+  /* border: 1px solid red; */
 }
 
 .disclosure {
